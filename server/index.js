@@ -5,6 +5,6 @@ const db = require('../server/config/database.js')
 
 const server = new ApolloServer({typeDefs, resolvers})
 db()
-server.listen(5000, () => {
-    console.log("Server is runnig on port 5000")
+server.listen(4000, () => {
+    console.log("Server is runnig on port 4000")
 })
